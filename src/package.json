@@ -1,0 +1,16 @@
+{
+  "name": "video-summarizer",
+  "scripts": {
+    "build": "tsc && node esbuild.config.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-polly": "^3.484.0",
+    "@aws-sdk/client-s3": "^3.429.0",
+    "@aws-sdk/s3-request-presigner": "^3.484.0",
+    "youtube-transcript": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "tsx": "^4.7.0"
+  }
+}
