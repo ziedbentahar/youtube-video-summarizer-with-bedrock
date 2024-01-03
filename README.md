@@ -1,5 +1,5 @@
 
-# youtubue video summarizer with Bedrock and Anthropic's Claude
+# Youtube video summarizer with Bedrock and Anthropic's Claude
 
 Full code for this bog post:
 
