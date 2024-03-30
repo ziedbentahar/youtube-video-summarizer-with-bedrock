@@ -1,11 +1,11 @@
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 
 const s3Client = new S3Client();
-
+const MAX_TOKEN_TO_SAMPLE = 4000
 const getModelParameters = (prompt: string) => {
   const modelParameters = {
     prompt,
-    max_tokens_to_sample: prompt.length,
+    max_tokens_to_sample: MAX_TOKEN_TO_SAMPLE,
     top_k: 250,
     top_p: 1,
     temperature: 0.2,

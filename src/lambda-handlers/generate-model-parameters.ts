@@ -35,7 +35,7 @@ Please output the summary JSON format conforming to thi JSON schema:
 
 const promptTemplate = "\n\nHuman:{{prompt}}\n\nAssistant:{";
 
-const MAX_TOKEN = 200_000;
+const MAX_TOKEN = 100_000;
 
 export const handler = async (event: { requestId: string }) => {
   const { requestId } = event;
